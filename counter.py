@@ -3,7 +3,7 @@ from collections import Counter
 
 # Creation of a Counter Class object using 
 # string as an iterable data container
-x = Counter("geeksforgeeks")
+x = Counter("cloudlab")
 
 # printing the elements of counter object
 for i in x.elements():
