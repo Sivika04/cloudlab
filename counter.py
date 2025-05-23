@@ -1,10 +1,8 @@
-# import counter class from collections module
 from collections import Counter
-
-# Creation of a Counter Class object using 
-# string as an iterable data container
-x = Counter("cloudlab")
-
-# printing the elements of counter object
-for i in x.elements():
-    print ( i, end = " ")
+def count_elements(data):
+    return Counter(data)
+if __name__ == "__main__":
+   
+    my_string = "abracadabra"
+    string_counts = count_elements(my_string)
+    print("String character counts:", string_counts)
